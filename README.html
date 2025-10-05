@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tahoor — Network Security Portfolio</title>
+  <meta name="description" content="Tahoor Alam Farooqi — Network Engineer | CCIE Security Aspirant | Cybersecurity & Automation Enthusiast" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0f17;
+      --card:#0f1720;
+      --muted:#9aa7b2;
+      --accent:#00b0ff;
+      --accent-2:#6de1ff;
+      --glass: rgba(255,255,255,0.03);
+      --glow: 0 6px 30px rgba(0,176,255,0.08), inset 0 1px 0 rgba(255,255,255,0.02);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    body{background:radial-gradient(1200px 400px at 10% 10%, rgba(0,176,255,0.03), transparent),
+      radial-gradient(800px 300px at 90% 90%, rgba(109,225,255,0.02), transparent),
+      var(--bg);color:#e6f2ff;-webkit-font-smoothing:antialiased}
+
+    .container{max-width:980px;margin:48px auto;padding:28px}
+
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:16px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;box-shadow:var(--glow);font-weight:800;color:#00121a}
+    .hero h1{margin:0;font-size:28px;letter-spacing: -0.4px}
+    .hero p.tag{margin:6px 0 0;color:var(--muted);font-weight:600}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:20px;margin-top:22px;box-shadow:var(--glow);border:1px solid rgba(255,255,255,0.03)}
+
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:20px}
+
+    .about p{color:#cfefff;line-height:1.5;margin:0}
+
+    .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .skill{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--glass);border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .skill svg{width:20px;height:20px;opacity:0.95}
+    .skill strong{font-size:13px}
+
+    .contact a{display:inline-block;margin-right:12px;color:var(--accent);text-decoration:none;font-weight:600}
+
+    .projects{display:grid;grid-template-columns:repeat(1,1fr);gap:14px}
+    .proj{padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);border:1px solid rgba(255,255,255,0.02)}
+    .proj h4{margin:0 0 6px}
+    .proj p{margin:0;color:var(--muted);font-size:14px}
+
+    footer{margin-top:26px;color:var(--muted);font-size:13px}
+
+    /* small screens */
+    @media (max-width:860px){.grid{grid-template-columns:1fr}.avatar{width:76px;height:76px}}
+
+    /* subtle animated background lines */
+    .bg-lines{position:fixed;inset:0;pointer-events:none;opacity:0.06}
+    .bg-lines svg{width:100%;height:100%}
+
+    .cta{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#00121a;font-weight:700;text-decoration:none}
+
+    /* tiny neon underline */
+    .underline{display:inline-block;position:relative}
+    .underline:after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:6px;opacity:0.25}
+  </style>
+</head>
+<body>
+  <div class="bg-lines" aria-hidden>
+    <svg viewBox="0 0 1600 900" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="g" x1="0" x2="1">
+          <stop offset="0" stop-color="#00b0ff" stop-opacity="0.45" />
+          <stop offset="1" stop-color="#6de1ff" stop-opacity="0.25" />
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="url(#g)" stroke-width="1">
+        <path d="M0 200 C200 100,400 300,600 200 C800 100,1000 300,1200 200 C1400 100,1600 300,1800 200"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="container">
+    <header>
+      <div class="avatar">TAF</div>
+      <div class="hero">
+        <h1>Tahoor Alam Farooqi</h1>
+        <p class="tag">Network Engineer | CCIE Security Aspirant | Cybersecurity & Automation Enthusiast</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card about">
+          <h3 class="underline">About</h3>
+          <p style="margin-top:12px">I am a dedicated knowledge-seeker focused on cloud computing, networking, and security. Currently pursuing CCIE Security while building skills in automation and modern network defenses. I thrive in dynamic environments where I can innovate, collaborate, and make measurable impact on secure infrastructure projects.</p>
+
+          <div style="margin-top:14px">
+            <a class="cta" href="#contact">Get in touch</a>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <h3 class="underline">Featured Project</h3>
+          <div class="proj" style="margin-top:12px">
+            <h4>Portfolio Website (This Site)</h4>
+            <p>Personal webpage showcasing skills, projects, and contact info. Built to be professional, dark-futuristic, and optimized for recruiters & internship evaluations.</p>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <h3 class="underline">Other Projects & Notes</h3>
+          <div class="projects" style="margin-top:12px">
+            <div class="proj">
+              <h4>Network Lab Automation</h4>
+              <p>Python scripts and Ansible playbooks for automating config backups, health checks, and baseline compliance for routers & switches.</p>
+            </div>
+            <div class="proj">
+              <h4>Security Playbooks</h4>
+              <p>Short writeups and scripts for incident response, firewall hardening, and Zero Trust network segments.</p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3 class="underline">Skills</h3>
+          <div class="skills" style="margin-top:12px">
+            <div class="skill"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Routing & Switching</strong></div>
+            <div class="skill"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Firewalls (Palo Alto, FortiGate)</strong></div>
+            <div class="skill"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Network Automation (Ansible, Python)</strong></div>
+            <div class="skill"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16 5.5 20l2-7L2 9h7l3-7z" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>CCIE Security (Ongoing)</strong></div>
+            <div class="skill"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 7h18M3 12h12M3 17h8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Cloud Fundamentals</strong></div>
+            <div class="skill"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M8 12h8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg><strong>Security Architecture & Zero Trust</strong></div>
+          </div>
+
+          <div style="margin-top:14px" class="contact" id="contact">
+            <h3 class="underline">Contact</h3>
+            <p style="margin-top:10px;color:var(--muted)">LinkedIn: <a href="https://www.linkedin.com/in/tahoor-alam-farooqi-975030128" target="_blank">linkedin.com/in/tahoor-alam-farooqi-975030128</a></p>
+            <p style="margin-top:6px;color:var(--muted)">Email: <a href="mailto:tahoorfarooqi19@gmail.com">tahoorfarooqi19@gmail.com</a></p>
+          </div>
+
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3 class="underline">Availability</h3>
+          <p style="margin-top:10px;color:var(--muted)">Actively seeking internships and short-term projects. Ready to contribute to network automation, security hardening, and cloud migration tasks.</p>
+        </div>
+
+        <div class="card" style="margin-top:16px;text-align:center">
+          <small style="color:var(--muted)">Built by Tahoor • Dark-futuristic theme • Optimized for internship review</small>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <p>Tip: To publish this page on GitHub Pages — create a repo named <code>YOUR_GITHUB_USERNAME.github.io</code>, add this file as <code>index.html</code>, and enable GitHub Pages in repo settings.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
