@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Tahoor Alam Farooqi (TAF)
 
-🔹 **Network Engineer | CCIE Security Aspirant | Cybersecurity & Automation Enthusiast**
+🔹 **Network Engineer | CCIE Security Aspirant | Cybersecurity & Automation Enthusiast**  
 
 ---
 
@@ -9,7 +9,7 @@
 Experienced **Network Engineer** with **4+ years of hands-on experience** in **routing, switching, firewalls, and VPNs**.  
 Currently pursuing **CCIE Security (Integrated Program, Networkers Home)**.  
 
-Passionate about building **secure, resilient, and scalable infrastructures** while driving **operational excellence and innovation**.
+Passionate about building **secure, resilient, and scalable infrastructures** while driving **operational excellence and innovation**.  
 
 ---
 
@@ -40,22 +40,30 @@ Passionate about building **secure, resilient, and scalable infrastructures** wh
 
 ## 🛠️ Skills
 
-**Routing & Switching:** Cisco (BGP, OSPF, EIGRP, VLANs, HSRP, STP)  
-**Firewalls & Security:** Palo Alto, FortiGate (Policy Management, VPN, NAT)  
-**VPNs:** IPsec, SSL, Remote Access, Site-to-Site  
-**Security Tools & Concepts:** SNMP traps, access control, MFA basics, secure CLI  
-**Monitoring & Diagnostic Tools:** Grafana, Wireshark, SecureCRT, DMS, BC WebGUI  
-**Wireless:** CommScope enterprise deployments, Meraki (basic)  
-**Cloud & OS:** AWS (EC2, VPC, S3), Linux CLI (basic), Windows Server Networking  
-**Utilities:** PuTTY, SuperPutty, WinSCP, TFTP Server, RDP, Excel for reporting & RCA  
+| Networking & Security | Automation & Cloud | Tools & Utilities |
+|----------------------|-----------------|-----------------|
+| Cisco Routing & Switching (BGP, OSPF, EIGRP, VLANs, HSRP, STP) | Ansible, Python | PuTTY, SuperPutty, WinSCP, TFTP Server, RDP, Excel |
+| Firewalls: Palo Alto, FortiGate (Policy, VPN, NAT) | AWS (EC2, VPC, S3) | SecureCRT, Wireshark, Grafana, DMS, BC WebGUI |
+| VPNs: IPsec, SSL, Remote Access, Site-to-Site | Linux CLI (basic) | - |
+| Security Tools & Concepts: SNMP traps, MFA, Access Control | - | - |
+| Wireless: CommScope, Meraki (basic) | - | - |
+
+---
+
+## 📊 GitHub Stats & Activity
+
+<p align="center">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=tafmatrix&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tafmatrix&layout=compact&theme=radical&hide_border=true"/>
+</p>
 
 ---
 
 ## 📫 Contact
 
-- **LinkedIn:** [linkedin.com/in/tahoor-alam-farooqi-975030128](https://www.linkedin.com/in/tahoor-alam-farooqi-975030128)  
-- **Email:** [tahoorfarooqi19@gmail.com](mailto:tahoorfarooqi19@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahoor-alam-farooqi-975030128)  
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tahoorfarooqi19@gmail.com)
 
 ---
 
-*Built by Tahoor • Dark-futuristic theme • Optimized for recruiter and internship review*
+*Built by Tahoor • Dark-futuristic, cyber-themed portfolio • Optimized for recruiter & internship review*
